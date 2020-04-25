@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#resumecontainer {
+    /* background-color: green; */
+    min-height: 100vh;
+}
+
+#resumetitle {
+    /* background-color: yellow; */
+    text-align: center;
+    padding: 1% 0 1% 0;
+}
+
+#resumebody {
+    /* background-color: blue; */
+    min-height: 100%
+}
+
+#resumebody img {
+    display: inline;
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    margin-top: 5%;
+    background-color: white;
+}
+
+#description {
+    display: flex;
+    align-self: flex-end;
+    /* background-color: purple; */
+}
+
+#presentation {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 0 0 10%;
+    padding-left: 15%;
+    height: 900px;
+    width: 50%;
+    /* background-color: red; */
+}
+
+#presentation div {
+    margin: 2% 0 2% 0;
+}
+
+#presentation div span {
+    color: #00CCCC;
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#info.div {
+    margin: 1% 0 1% 0;
+}
+    
+
+#technologies {
+    /* background-color: rebeccapurple; */
+}
+
+#educationandtechnologies {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.employmentsections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+hr.solid {
+    /* border-bottom: 2px solid #00CCCC; */
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    width: 100%;
+}
