@@ -1,0 +1,29 @@
+:root {
+    --icon-color: rgb(26, 149, 149);
+  }
+
+.fa-tools {
+    color: var(--icon-color);
+    margin-left: 10px;
+}
+
+.fa-pencil-ruler {
+    color: var(--icon-color);
+    margin-left: 10px;
+}
+
+.fa-meteor:hover {
+    color: red;
+}
+
+.fa-globe-americas:hover {
+    color: green;
+}
+
+.fa-guitar:hover {
+    color: rgb(90, 62, 62);
+}
+
+.fa-gamepad:hover {
+    color: blue;
+}
