@@ -164,7 +164,16 @@ hr.vertical {
     background-image: linear-gradient(to bottom, rgba(0, 204, 204, 0), rgba(0, 204, 204, 0.75), rgba(0, 204, 204, 0));
 }
 
-@media screen and (max-width: 1001px) {
+@media screen and (min-width: 1001px){
+    *{
+        transition: .4s;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    *{
+        transition: .4s;
+    }
     header {
         width: 100%;
     }
