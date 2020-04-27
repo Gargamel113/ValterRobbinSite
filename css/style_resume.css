@@ -7,7 +7,7 @@
 #info img {
     position: absolute;
     border-radius: 50%;
-    width: 10%;
+    max-width: 10%;
     background-color: white;
     border: solid 10px #00CCCC;
 }
@@ -57,20 +57,23 @@ header h2 {
     padding: 120px 10px 0 10px;
 }
 
-#center {
+#personalinfo {
     background-color: rgb(220, 220, 220);
 }
 
-#center h2 {
+#personalinfo h2 {
     margin-bottom: 20px;
 }
 
-#center h3 {
+#personalinfo h3 {
     margin: 10px 0;
 }
 
+#personalinfo h3 span {
+    color: rgb(70, 70, 70);
+}
 
-#left h2 {
+#whoami h2 {
     margin-bottom: 20px;
 }
 
@@ -92,15 +95,12 @@ header h2 {
 }
 
 #educationandtechnologies {
-
     display: flex;
     width: 100%;
     height: 300px;
-    /* background-color: red; */
 }
 
 #educationandtechnologies div {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,6 +116,11 @@ header h2 {
     justify-content: space-around;
     height: auto;
     min-height: 400px;
+}
+
+#employmenthistory h3 {
+    color: rgb(70, 70, 70);
+
 }
 
 .employmentsections {
@@ -158,3 +163,34 @@ hr.vertical {
     width: 1px;
     background-image: linear-gradient(to bottom, rgba(0, 204, 204, 0), rgba(0, 204, 204, 0.75), rgba(0, 204, 204, 0));
 }
+
+@media screen and (max-width: 1001px) {
+    header {
+        width: 100%;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    #presentation {
+        margin: auto;
+        width: 100%;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about div {    
+        width: auto;
+        padding: 50px 0 0 20px;
+    }
+  }
+
+  @media screen and (max-width: 1001px) {
+    header h2 {
+        font-size: 17px;
+    }
+  }
