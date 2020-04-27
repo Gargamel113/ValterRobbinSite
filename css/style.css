@@ -4,10 +4,11 @@ body {
   padding: 0;
   font-size: 50px;
   text-align: center;
-  background-image: url(bakgrund.jpg);
+  background-image: url(../images/bakgrund.jpg);
    display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .container {
